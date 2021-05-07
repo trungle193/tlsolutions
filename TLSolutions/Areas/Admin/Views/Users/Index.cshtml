@@ -1,0 +1,48 @@
+﻿@model List<TLSolutions.Entities.Identity.AppUser>
+<h1>Users</h1>
+<p>
+    <a href="/Admin/Users/Add">Add User</a>
+</p>
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-danger alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+        @TempData["Message"]
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>#</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>#</td>
+                <td>
+                    @user.Email
+                </td>
+                <td>
+                    @foreach (var role in user.UserRoles)
+                    {
+                        <a href="#">@role.Role.Name</a>
+                    }
+                </td>
+                <td>
+                    <a asp-action="EditRole" asp-route-id="@user.Id" class="btn btn-info btn-sm">Edit Roles</a>
+                    <a asp-action="Claims" asp-route-id="@user.Id" class="btn btn-info btn-sm">Edit Claims</a>
+
+                    <form asp-action="Delete">
+                        <input type="hidden" name="Id" value="@user.Id" />
+                        <button class="btn btn-danger btn-sm" type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{5E90E970-C24D-4262-B512-FFA4C616A5B4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TLSolutions/Areas/Admin/Controllers/RolesController.cs">
+    <Files>
+      <File FileName="TLSolutions/Areas/Admin/Controllers/UsersController.cs" Line="160" Column="44" />
+      <File FileName="TLSolutions/Areas/Admin/Controllers/RolesController.cs" Line="51" Column="32" />
+      <File FileName="TLSolutions/Startup.cs" Line="64" Column="1" />
+      <File FileName="TLSolutions/Configurations/ConfigureIdentityServices.cs" Line="43" Column="112" />
+      <File FileName="TLSolutions/Areas/Admin/Views/Roles/Index.cshtml" Line="34" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TLSolutions" expanded="True">
+            <Node name="TLSolutions" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True">
+                    <Node name="RolesController.cs" selected="True" />
+                  </Node>
+                  <Node name="Views" expanded="True">
+                    <Node name="Roles" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Configurations" expanded="True" />
+            </Node>
+            <Node name="TLSolutions.Data" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TLSolutions PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <DisabledProjects>
+    <String>TLSolution.Entities/TLSolution.Entities.csproj</String>
+    <String>TLSolution.Data/TLSolution.Data.csproj</String>
+    <String>TLSolutions.Identity.Services/TLSolutions.Identity.Services.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/trungle/Desktop/TLSolutions/TLSolutions/Areas/Admin/Controllers/RolesController.cs" relfile="TLSolutions/Areas/Admin/Controllers/RolesController.cs" line="144" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

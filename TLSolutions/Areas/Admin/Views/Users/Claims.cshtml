@@ -1,0 +1,49 @@
+﻿@model List<Claim>
+@{
+    ViewData["Title"] = "Claims";
+}
+<h1>Claims</h1>
+<h4>@ViewBag.UserName</h4>
+<hr />
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-danger alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+        @TempData["Message"]
+    </div>
+}
+
+<form class="form-inline" asp-action="AddClaimToRole">
+    <div class="form-group mx-sm-3 mb-2">
+        <label>Claim Value </label>
+        <input name="UserId" type="hidden" value="@ViewBag.UserId" />
+        <select class="form-control" name="SelectedClaim" asp-items="@ViewBag.PermissionOptions"></select>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Add Claim</button>
+</form>
+
+<hr />
+
+<table class="table">
+    <tr>
+        <th>Type</th>
+        <th>Value</th>
+    </tr>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Type</td>
+                <td>@item.Value</td>
+                <td>
+                    <form method="post" asp-action="RemoveClaimFromRole">
+                        <input type="hidden" value="@ViewBag.UserId" name="UserId" />
+                        <input type="hidden" value="@item.Value" name="ClaimValue" />
+                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

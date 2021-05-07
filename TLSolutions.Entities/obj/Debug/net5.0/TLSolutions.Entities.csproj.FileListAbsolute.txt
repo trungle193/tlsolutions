@@ -1,0 +1,12 @@
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/bin/Debug/net5.0/TLSolutions.Entities.deps.json
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/bin/Debug/net5.0/TLSolutions.Entities.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/bin/Debug/net5.0/ref/TLSolutions.Entities.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/bin/Debug/net5.0/TLSolutions.Entities.pdb
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/obj/Debug/net5.0/TLSolutions.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/obj/Debug/net5.0/TLSolutions.Entities.AssemblyInfoInputs.cache
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/obj/Debug/net5.0/TLSolutions.Entities.AssemblyInfo.cs
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/obj/Debug/net5.0/TLSolutions.Entities.csproj.CoreCompileInputs.cache
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/obj/Debug/net5.0/TLSolutions.Entities.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/obj/Debug/net5.0/ref/TLSolutions.Entities.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/obj/Debug/net5.0/TLSolutions.Entities.pdb
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Entities/obj/Debug/net5.0/TLSolutions.Entities.csprojAssemblyReference.cache

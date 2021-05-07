@@ -1,0 +1,30 @@
+﻿@model List<TLSolutions.Entities.Category>
+<h1>Danh sach category</h1>
+<p>
+    <a asp-action="Add">Them category</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Alias
+        </th>
+        <th>#</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Alias
+            </td>
+            <td>
+                <a class="btn btn-sm btn-success" asp-action="Add" asp-route-id="@item.Id">Edit</a>
+            </td>
+        </tr>
+    }
+</table>

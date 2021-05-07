@@ -1,0 +1,15 @@
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/bin/Debug/net5.0/TLSolutions.Identity.Services.deps.json
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/bin/Debug/net5.0/TLSolutions.Identity.Services.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/bin/Debug/net5.0/ref/TLSolutions.Identity.Services.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/bin/Debug/net5.0/TLSolutions.Identity.Services.pdb
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/bin/Debug/net5.0/TLSolutions.Entities.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/bin/Debug/net5.0/TLSolutions.Entities.pdb
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/TLSolutions.Identity.Services.csprojAssemblyReference.cache
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/TLSolutions.Identity.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/TLSolutions.Identity.Services.AssemblyInfoInputs.cache
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/TLSolutions.Identity.Services.AssemblyInfo.cs
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/TLSolutions.Identity.Services.csproj.CoreCompileInputs.cache
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/TLSolutions.Identity.Services.csproj.CopyComplete
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/TLSolutions.Identity.Services.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/ref/TLSolutions.Identity.Services.dll
+/Users/trungle/Desktop/TLSolutions/TLSolutions.Identity.Services/obj/Debug/net5.0/TLSolutions.Identity.Services.pdb

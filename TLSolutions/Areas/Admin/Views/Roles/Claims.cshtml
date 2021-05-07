@@ -1,0 +1,24 @@
+﻿@model List<TLSolutions.Entities.Identity.PermissionClaim>
+@{
+    ViewData["Title"] = "Claims";
+}
+<h1>Claims</h1>
+
+<p>
+    <a href="/Admin/Roles/AddPermissionClaim">Add Claim</a>
+</p>
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

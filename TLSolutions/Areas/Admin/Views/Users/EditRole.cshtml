@@ -1,0 +1,30 @@
+﻿<h1>Edit Role</h1>
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+        @TempData["Message"]
+    </div>
+}
+<form asp-action="UpdateRoles" method="post">
+    <input type="hidden" name="Id" value="@ViewBag.UserId" />
+    <table class="table">
+        <tr>
+            <th>Role Name</th>
+            <th>#</th>
+        </tr>
+        @foreach (var item in (List<TLSolutions.Areas.Admin.Controllers.UsersController.RoleSelection>)ViewBag.AllRoles)
+        {
+            <tr>
+                <td>
+                    @item.Role.Name
+                </td>
+                <td>
+                    <input name="selectedRoles[]" type="checkbox" value="@item.Role.Name" checked="@item.IsSelected" />
+                </td>
+            </tr>
+        }
+    </table>
+    <hr />
+    <button class="btn btn-success btn-sm" type="submit">Update</button>
+</form>
